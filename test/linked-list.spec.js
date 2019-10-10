@@ -82,7 +82,7 @@ describe('LinkedList', () => {
             expect(list.at(position)).to.equal(data);
         });
 
-        it ('shouldn\'t replace existing values', () => {
+        it('shouldn\'t replace existing values', () => {
             const list = new LinkedList();
             const position = 1;
             const data = 42;
